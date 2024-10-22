@@ -1,3 +1,8 @@
-data/
+data/mnist/
+data/yacht/
 *.csv
 environment_svn2.yaml
+val_MSE_comparison_30epochs_log.pdf
+val_MSE_comparison_30epochs_log.png
+val_NLL_comparison_30epochs_log.pdf
+val_NLL_comparison_30epochs_log.png
