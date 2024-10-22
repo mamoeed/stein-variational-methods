@@ -1,0 +1,26 @@
+
+method: "sSVGD" # "SGD_ensembles", "SGLD", "SVGD", "sSVGD", "SVN_laplace", "sSVN_laplace", "SVN_adam", "sSVN_adam"
+is_stochastic: False
+
+# seeds: [38,39,40,41,42] 
+
+task: "breast"
+
+is_classification: True
+task_dim: 2
+
+lr: 1e-3
+anneal: True
+
+kernel_width: 1e-3 
+
+
+data_location: "data/"
+batch_size: 64
+
+num_particles: 20
+num_epochs: 100
+
+model_selection_metric: 'NLL' # 'NLL' 'Cross Entropy'
+
+likelihood_std: 1
